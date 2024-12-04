@@ -38,7 +38,7 @@ services:
       MYSQL_USER: sa
       MYSQL_PASSWORD: 12345
       MYSQL_DATABASE: UserDB
-    platform: linux/amd64  # platform parametresi doğru konumda
+    platform: linux/amd64
 
   sqlapi:
     container_name: sqlapi
@@ -54,4 +54,4 @@ services:
     ports:
       - "2525:2525"
       - "5025:5025"
-    platform: linux/amd64  # platform parametresi doğru konumda
+    platform: linux/amd64
